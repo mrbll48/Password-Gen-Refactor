@@ -7,14 +7,11 @@ var numbers = [0,1,2,3,4,5,6,7,8,9];
   var specialCharacters = []
 function generatePassword() {
   var passwordLength = prompt("How long do you want your password?");
-  var passwordLowerCaseCharacters = prompt("Do you want lowercase letters in your password?");
-  var passwordUpperCaseCharacters = prompt("Do you want uppercase characters in your password?");
-  var passwordSpecialCharacters = prompt("Do you want special characters in your password?");
+  var passwordLowerCaseCharacters = confirm("Do you want lowercase letters in your password?");
+  var passwordUpperCaseCharacters = confirm("Do you want uppercase characters in your password?");
+  var passwordSpecialCharacters = confirm("Do you want special characters in your password?");
 
   }
-
-
-console.log(response);
 
 // var numbers = [0,1,2,3,4,5,6,7,8,9]
 // var lowerCasedCharacters = [
