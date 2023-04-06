@@ -3,7 +3,7 @@
 ## Description
 
 ## Screenshot
-![plot](./Assets/password-gen.png)
+![plot](./password-gen.png)
 
 ## Usage
 
